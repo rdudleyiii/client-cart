@@ -33,7 +33,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">myCart</a>
+        <a class="navbar-brand" href="index.html">myCart</a>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@
     </div> <!-- /.row -->
     <div class="row">
       <form id="shopping-cart" action="cart.html" method="post">
-        <table class="shopping-cart">
+        <table class="shopping-cart table table-striped">
           <thead>
             <tr>
               <th scope="col">Item</th>
@@ -55,20 +55,18 @@
           </thead>
           <tbody></tbody>
         </table>
-        <p id="sub-total">
-          <strong>Sub Total</strong>: <span id="stotal"></span>
-        </p>
-        <ul id="shopping-cart-actions">
-          <li>
+        <p id="sub-total"><strong>Sub Total</strong>: <span id="stotal"></span></p>
+        <ul id="shopping-cart-actions" class="list-group">
+          <li class="list-group-item">
             <input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
           </li>
-          <li>
+          <li class="list-group-item">
             <input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
           </li>
-          <li>
+          <li class="list-group-item">
             <a href="index.html" class="btn">Continue Shopping</a>
           </li>
-          <li>
+          <li class="list-group-item">
             <a href="checkout.html" class="btn">Go To Checkout</a>
           </li>
         </ul>

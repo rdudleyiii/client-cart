@@ -33,35 +33,41 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">myCart</a>
+        <a class="navbar-brand" href="index.html">myCart</a>
       </div>
     </div>
   </div>
   <div class="container" role="main">
     <div class="row page-header">
       <div class="col-md-12">
-        <h1>Page Header <small>lulz</small></h1>
+        <h1>Wine Listing <small>Some cheese with that whine?</small></h1>
       </div>
     </div> <!-- /.row -->
     <div class="row">
-      <div class="product-description panel panel-default" data-name="Wine #1" data-price="5">
-        <div class="panel-heading col-md-12">
-          <div class="panel-title">
-              <div class="product-name col-md-11">Wine #1</div>
-              <div class="product-price col-md-1">&euro; 5</div>
-          </div>          
-        </div>
-        <div class="panel-body">
-          <div class="row">      
-            <form class="add-to-cart form-inline" role="form" action="cart.html" method="post">
-              <div class="form-group">
-                <label for="qty-1">Quantity</label>
-                <input type="text" name="qty-1" id="qty-1" class="qty form-control" value="1" />                
-              </div>
-              <div class="form-group">              
-                <input type="submit" value="Add to cart" class="btn btn-primary" />              
-              </div>
-            </form>
+    <div class="col-md-4">
+        <div class="product-description panel panel-default" data-name="Wine #1" data-price="5">
+          <div class="panel-heading col-sm-12 col-md-12">
+            <div class="panel-title">
+                <div class="product-name col-sm-6 col-md-9">Wine #1</div>
+                <div class="product-price col-sm-6 col-md-3">&euro; 5</div>
+            </div>          
+          </div>
+          <div class="panel-body">
+            <div class="row">      
+              <form class="add-to-cart" role="form" action="cart.html" method="post">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label for="qty-1">Quantity</label>
+                      <input type="text" name="qty-1" id="qty-1" class="qty form-control" value="1" />
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Add to cart" class="btn btn-primary" />              
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
